@@ -12,4 +12,9 @@ var findById = (u, id) => {
             return u[i]
         }
       } return null                                 // it'll wait for loop to run its entire course, and if it doesnt find a match, returns null.
+
+}
+
+function findById(arr,id) {
+    return arr.find((el) =>  el.id === id) || null
 }
