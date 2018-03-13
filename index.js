@@ -12,5 +12,4 @@ var findById = (u, id) => {
             return u[i]
         }
       } return null                                 // it'll wait for loop to run its entire course, and if it doesnt find a match, returns null.
-
 }
